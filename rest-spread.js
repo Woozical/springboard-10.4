@@ -75,7 +75,7 @@ const combine = (obj1, obj2) => {
 
 /** Return a new object with a modified key and value. */
 
-function update(obj, key, val) {
+const update =(obj, key, val) => {
     const result = {...obj};
     if (key in obj) result[key] = val;
     return result;
